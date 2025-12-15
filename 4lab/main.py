@@ -73,10 +73,10 @@ def max_interval(intervals):
 
 
 intervals = [
-    HMSInterval(1, 30, 0),     # hms 01:30:00
-    MSInterval(90000),        # ms 90000
-    MinSecInterval(3, 45),    # minsec 3 45
-    HoursFloatInterval(2.5),  # hours 2.5
+    HMSInterval(1, 30, 0),  
+    MSInterval(90000),      
+    MinSecInterval(3, 45),    
+    HoursFloatInterval(2.5),  
 ]
 
 total = total_seconds(intervals)
